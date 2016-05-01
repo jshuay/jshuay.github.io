@@ -1,0 +1,14 @@
+drop index c_custkey_ind;
+drop index o_custkey_ind;
+drop index l_orderkey_ind;
+drop index o_orderkey_ind;
+drop index l_suppkey_ind;
+drop index s_suppkey_ind;
+drop index c_nationkey_ind;
+drop index s_nationkey_ind;
+drop index n_nationkey_ind;
+drop index n_regionkey_ind;
+drop index r_regionkey_ind;
+drop index r_name_ind;
+drop index o_orderdate_ind;
+drop index n_name_ind;

@@ -1,0 +1,14 @@
+create index c_custkey_ind on customer(c_custkey);
+create index o_custkey_ind on orders(o_custkey);
+create index l_orderkey_ind on lineitem(l_orderkey);
+create index o_orderkey_ind on orders(o_orderkey);
+create index l_suppkey_ind on lineitem(l_suppkey);
+create index s_suppkey_ind on supplier(s_suppkey);
+create index c_nationkey_ind on customer(c_nationkey);
+create index s_nationkey_ind on supplier(s_nationkey);
+create index n_nationkey_ind on nation(n_nationkey);
+create index n_regionkey_ind on nation(n_regionkey);
+create index r_regionkey_ind on region(r_regionkey);
+create index r_name_ind on region(r_name);
+create index o_orderdate_ind on orders(o_orderdate);
+create index n_name_ind on nation(n_name);
